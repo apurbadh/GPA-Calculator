@@ -2,7 +2,7 @@ from tkinter import *
 
 root = Tk()
 subList = ["English", "Nepali", "Maths", "Opt Maths", "Science", "EPH", "Social", "Computer"]
-root.title("KINS GPA Converter")
+root.title("GPA Calculator")
 row = 0
 gpatxt = "    "
 def subGPA(marks, type):
