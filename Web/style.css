@@ -1,0 +1,17 @@
+h1,h2{
+	text-align: center;
+}
+input{
+	margin-left: 20px;
+}
+
+button{
+	display: flex;
+	text-align: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin-left: 150px;
+}
+label{
+	margin-left: 50px;
+}
