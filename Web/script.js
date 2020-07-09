@@ -4,6 +4,8 @@ function marksInGPA(marks){
 	let allGPA = [0,0.8,1.2,1.6,2,2.4,2.8,3.2,3.6,4];
 	if (numInStr.length == 1){
 		return 0.8;
+	}else if (numInStr.length == 3){
+		return 4;
 	}
 	let firstChar = Number(numInStr[0]);
 	console.log( allGPA[firstChar])

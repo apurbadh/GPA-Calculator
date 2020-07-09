@@ -14,6 +14,8 @@ def subGPA(marks, type):
     marks = str(marks)
     if len(marks) == 1:
         return 0.8
+    elif len(marks) == 3:
+        return 4     
     tenthpl = marks[0]
     return gpaal[int(tenthpl)]
 
