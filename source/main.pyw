@@ -1,6 +1,8 @@
 from tkinter import *
 
 root = Tk()
+img = PhotoImage(file='gpac.ico')
+root.tk.call('wm', 'iconphoto', root._w, img)
 subList = ["English", "Nepali", "Maths", "Opt Maths", "Science", "EPH", "Social", "Computer"]
 root.title("GPA Calculator")
 row = 0
